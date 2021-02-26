@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Coffee Blog</title>
+</head>
+<body>
+    <header class="header-container">
+        <div  class="site-header 
+        container">
+        <div class="bar">
+            <h1><a href="index.html">Coffee<strong>Blog</strong></a></h1>
+        
+            <nav class="menu">
+                <a href="about.html">About Us</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <div class="text-header">
+            <h2 class="center">Coffee Blog with Tips and Courses</h2>
+            <p class="center">Learn from the experts with the best recipes.</p>
+       </div> 
+    </div>
+    </header>
+
+    <div class="main-container">
+    <main class="container blog">
+        <h2>Our Blog</h2>
+
+        <!--blog 1-->
+        <article class="blog-entry">
+            <img src="img/blog1.jpg" alt="Picture of the blog">
+            <h3>Types of Coffee Beans</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe culpa id officia earum non vitae doloremque harum. Veritatis, molestiae sit iure ratione dolorem nesciunt quod unde quisquam ducimus, deserunt ipsum.</p>
+            <a class="btn btn-read" href="#">Read More</a>
+        </article>
+        <!--Blog 2-->
+
+        <article class="blog-entry">
+            <img src="img/blog2.jpg" alt="Picture of the Blog">
+            <h3>Delicious Recipes for Coffee</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae praesentium modi qui blanditiis non ducimus excepturi eveniet illo nam, natus adipisci inventore. Soluta ipsum aspernatur eveniet recusandae veritatis quod molestiae?</p>
+            <a class="btn btn-read" href="#">Read More</a>
+        </article>
+
+        <!--Blog 3-->
+        <article class="blog-entry">
+            <img src="img/blog3.jpg" alt="Picture of the Blog">
+            <h3>Benefits of Coffee</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptas, dignissimos odit fuga dolores pariatur dolorum error, necessitatibus eveniet suscipit soluta consequuntur provident impedit quidem, autem minima sapiente ipsum explicabo.</p>
+            <a class="btn btn-read" href="#">Read More</a>
+        </article>
+    </main>
+
+    <aside class="courses">
+        <h2>Our Courses</h2>
+        <ul>
+             <li>
+                <h4>Extraction Techniques</h4>
+                <p>Price: Free</p>
+                <p>Places: $20.00</p>
+                <a href="#" class="btn btn-read">More Information</a>
+            </li>
+            <li>
+                <h4>The Perfect Latte</h4>
+                <p>Price: $10.00</p>
+                <p>Places: Online</p>
+                <a href="#" class="btn btn-read">More Information</a>
+            </li>
+            <li>
+                <h4>Levels of Caffeine</h4>
+                <p>Price: Free</p>
+                <p>Places: Online</p>
+                <a href="#" class="btn btn-read">More Information</a>
+            </li>
+        </ul>
+
+    </aside>
+</div> <!-- .main-container-->
+
+    <footer class="site-footer">
+       <div class="bar">
+
+        <p class="center"><a href="index.html">Coffee<strong>Blog</strong></a></p> 
+            <nav class="menu">
+                <a href="about.html">About Us</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </nav> 
+       </div>
+    </footer>
+</body>
+</html>
